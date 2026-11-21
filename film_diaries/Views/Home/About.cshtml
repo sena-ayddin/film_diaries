@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "About Us - FilmDiaries";
+}
+
+@section Styles {
+    <link href="~/Content/css/style_about_us.css" rel="stylesheet" />
+}
+
+    <!-- about us ----------------------------------------------------------------------------------------- -->
+    <section class="about-us">
+        <h1 class="anabaslik">About Us</h1>
+        <div class="sections">
+            <div class="section1">
+            <div class="left-side">
+                <h1>Who Are We?</h1>
+                <p>We are a team of five university students who came together with one shared goal: 
+                to turn our ideas into something fun, creative, and useful. As part of our Web Programming project, 
+                we wanted to build more than just a website, we wanted to create a place where people can 
+                discover stories, explore new worlds, and enjoy their favorite entertainment. By combining our ideas, 
+                learning new skills, and working together, we are turning our vision into reality, one line of code 
+                at a time!</p>
+            </div>
+            </div>
+        </div>
+        <div class="sections">
+            <div class="section2">
+            <div class="right-side">
+                <h1>What Is Our Website About?</h1>
+                <p>Our website is an online entertainment platform where movie and series lovers can explore 
+                    a variety of content and find something perfect for their next movie night. Users can 
+                    discover different genres, search for their favorite titles, and rent or purchase the 
+                    movies and series they want to watch. With an easy-to-use interface and a variety of 
+                    entertainment options, our platform aims to make finding your next favorite story simple 
+                    and enjoyable. Whether you're looking for action, comedy, romance, or a little mystery, 
+                    your next adventure starts here!</p>
+            </div>
+            </div>
+        </div>
+        <div class="sections">
+            <div class="section3">
+            <div class="left-side">
+                <h1>Why Did We Created This Website?</h1>
+                <p>We created this website as part of our Web Programming course to put our knowledge 
+                    into practice and turn what we've learned into a real, working project. Our goal 
+                    was to build a user-friendly platform where people can easily explore, rent, and 
+                    purchase movies and series. Throughout this project, we aim to improve our programming 
+                    skills, learn how to design and develop a website, and experience what it's like to work 
+                    together as a team. More than just a university assignment, this project is an 
+                    opportunity for us to turn our ideas into something creative, practical, and enjoyable 
+                    for movie lovers!</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- the team ----------------------------------------------------------------------------------------- -->
+    <section class="the-team">
+        <h1>The Team</h1>
+        <div class="team-cards">
+            
+            <div class="character">
+                <span class="pp material-symbols-outlined">mood</span>
+                <p class="name">Azad Altuntop</p>
+            </div>
+            <div class="character">
+                <a href="https://www.linkedin.com/in/sena-yavuzer-aa0a2033a" class="pp material-symbols-outlined">emoji_nature</a>
+                <p class="name">Sena Yavuzer</p>
+            </div>
+            <div class="character">
+                <a href="https://www.linkedin.com/in/buket-pehlivanoğlu-2a706532a" class="pp material-symbols-outlined">pets</a>
+                <p class="name">Buket Pehlivanoğlu</p>
+                <p class="role">(Team Captain)</p>
+            </div>
+            <div class="character">
+                <a href="https://www.linkedin.com/in/idil-kılıç-15a54732a?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="pp material-symbols-outlined">raven</a>
+                <p class="name">İdil Kılıç</p>
+            </div>
+            <div class="character">
+                <a href="https://sena-ayddin.github.io/Portfolio/index.html#projects" class="pp material-symbols-outlined">stars_2</a>
+                <p class="name">Sena Aydın</p>
+            </div>
+        </div>
+    </section>
+    <a href="@Url.Action("Index", "Home")" class="back-btn">← Back to Home Page</a>
