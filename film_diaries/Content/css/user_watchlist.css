@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_watchlist.css
+   Sayfa      : Watchlist / My List (izleme listem)
+   View       : Views/Account/MyList.cshtml (şu an burada; WatchListController'a taşınabilir)
+   Controller : AccountController / WatchListController
+   Sorumlu    : İdil
+   Yükleme    : @section Styles { <link href="~/Content/css/user_watchlist.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */

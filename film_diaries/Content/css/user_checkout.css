@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_checkout.css
+   Sayfa      : Checkout (ödeme: satın alma / abonelik)
+   View       : Views/Checkout/Index.cshtml (önerilen)
+   Controller : CheckoutController (önerilen)
+   Sorumlu    : İdil
+   Yükleme    : @section Styles { <link href="~/Content/css/user_checkout.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */

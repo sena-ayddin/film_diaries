@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_dashboard.css
+   Sayfa      : Admin Dashboard (yönetim paneli ana sayfası)
+   View       : Views/AdminDashboard/Index.cshtml
+   Controller : AdminDashboardController
+   Sorumlu    : Sena A.
+   Yükleme    : @section Styles { <link href="~/Content/css/admin_dashboard.css" rel="stylesheet" /> }
+   Not        : common.css ve admin_layout.css AdminLayout'ta yüklenir; buraya sadece bu sayfaya özel stiller yazılır. user_layout.css admin sayfalarında YÜKLENMEZ.
+   ========================================================== */

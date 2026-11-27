@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_video_player.css
+   Sayfa      : Video Player (oynatıcı)
+   View       : Views/Player/Index.cshtml (önerilen)
+   Controller : PlayerController (önerilen)
+   Sorumlu    : İdil
+   Yükleme    : @section Styles { <link href="~/Content/css/user_video_player.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */

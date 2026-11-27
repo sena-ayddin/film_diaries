@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_notification.css
+   Sayfa      : Notification Management (bildirim oluştur ve gönder)
+   View       : Views/AdminNotification/Index, Create .cshtml
+   Controller : AdminNotificationController
+   Sorumlu    : Sena A.
+   Yükleme    : @section Styles { <link href="~/Content/css/admin_notification.css" rel="stylesheet" /> }
+   Not        : common.css ve admin_layout.css AdminLayout'ta yüklenir; buraya sadece bu sayfaya özel stiller yazılır. user_layout.css admin sayfalarında YÜKLENMEZ.
+   ========================================================== */

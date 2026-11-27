@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_register.css
+   Sayfa      : Register (kayıt)
+   View       : Views/Account/Register.cshtml
+   Controller : AccountController (Azad)
+   Sorumlu    : Buket (tasarım)
+   Yükleme    : @section Styles { <link href="~/Content/css/user_register.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */

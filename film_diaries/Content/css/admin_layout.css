@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_layout.css
+   Sayfa      : AdminLayout (tüm admin sayfalarında ortak: sidebar, üst bar, tablo, form, buton stilleri)
+   View       : Views/Shared/AdminLayout.cshtml
+   Controller : Tüm Admin... controller'ları
+   Sorumlu    : Buket (tasarım) + Sena A.
+   Yükleme    : AdminLayout.cshtml <head> içinde, common.css'in altına: <link href="~/Content/css/admin_layout.css" rel="stylesheet" />
+   Not        : Ortak admin stilleri (sidebar, tablolar, formlar, butonlar, validasyon hata mesajları) buraya yazılır; sayfa dosyalarında tekrar etme.
+   ========================================================== */

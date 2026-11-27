@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_user.css
+   Sayfa      : User Management (kullanıcı yönetimi)
+   View       : Views/AdminUser/Index, Edit, Delete .cshtml
+   Controller : AdminUserController
+   Sorumlu    : Sena A.
+   Yükleme    : @section Styles { <link href="~/Content/css/admin_user.css" rel="stylesheet" /> }
+   Not        : common.css ve admin_layout.css AdminLayout'ta yüklenir; buraya sadece bu sayfaya özel stiller yazılır. user_layout.css admin sayfalarında YÜKLENMEZ.
+   ========================================================== */

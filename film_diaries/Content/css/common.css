@@ -1,0 +1,39 @@
+﻿/* common.css: tüm sayfalarda (user + admin) ortak temel stiller */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* sayfanın genel stili */
+body {
+    font-family: "Lexend", sans-serif;
+    color: #F5F0E8;
+    background-color: #1A1A1A;
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* scroll animation ------------------------------------------------------------------------------ */
+
+/* --- YUMUŞAK KAYDIRMA (SMOOTH SCROLL) --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- YUKARI KAYARAK BELİRME ANİMASYONU --- */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(45px);
+    transition: opacity 0.75s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.75s cubic-bezier(0.2, 0.8, 0.2, 1);
+    will-change: opacity, transform;
+}
+
+    /* Ekrana girdiği anda JS tarafından eklenir */
+    .scroll-reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+    }

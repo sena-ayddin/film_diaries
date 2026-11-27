@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_genre.css
+   Sayfa      : Genre Management (tür yönetimi)
+   View       : Views/AdminGenre/Index, Create, Edit, Delete .cshtml
+   Controller : AdminGenreController
+   Sorumlu    : Sena A.
+   Yükleme    : @section Styles { <link href="~/Content/css/admin_genre.css" rel="stylesheet" /> }
+   Not        : common.css ve admin_layout.css AdminLayout'ta yüklenir; buraya sadece bu sayfaya özel stiller yazılır. user_layout.css admin sayfalarında YÜKLENMEZ.
+   ========================================================== */

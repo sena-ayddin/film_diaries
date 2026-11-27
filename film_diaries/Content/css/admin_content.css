@@ -1,0 +1,9 @@
+/* ==========================================================
+   admin_content.css
+   Sayfa      : Content Management (film/dizi ekle, düzenle, sil, listele)
+   View       : Views/AdminContent/Index, Create, Edit, Delete .cshtml
+   Controller : AdminContentController
+   Sorumlu    : Sena A.
+   Yükleme    : @section Styles { <link href="~/Content/css/admin_content.css" rel="stylesheet" /> }
+   Not        : common.css ve admin_layout.css AdminLayout'ta yüklenir; buraya sadece bu sayfaya özel stiller yazılır. user_layout.css admin sayfalarında YÜKLENMEZ.
+   ========================================================== */

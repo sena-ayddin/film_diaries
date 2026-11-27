@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_watch_history.css
+   Sayfa      : Watch History (izleme geçmişi)
+   View       : Views/WatchHistory/Index.cshtml (önerilen)
+   Controller : WatchHistoryController (önerilen)
+   Sorumlu    : İdil
+   Yükleme    : @section Styles { <link href="~/Content/css/user_watch_history.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */

@@ -1,0 +1,9 @@
+/* ==========================================================
+   user_movies.css
+   Sayfa      : Movies (film kataloğu)
+   View       : Views/Movies/Index.cshtml
+   Controller : MoviesController
+   Sorumlu    : İdil
+   Yükleme    : @section Styles { <link href="~/Content/css/user_movies.css" rel="stylesheet" /> }
+   Not        : common.css (reset, body) ve user_layout.css (nav, footer, .back-btn) Layout'ta zaten yüklenir; buraya sadece bu sayfaya özel stiller yazılır.
+   ========================================================== */
