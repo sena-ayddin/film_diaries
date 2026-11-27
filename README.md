@@ -55,8 +55,8 @@ Rules:
 - Validation rules go on the model with Data Annotations (`[Required]`, `[StringLength]`, `[Range]`, `[EmailAddress]`).
 
 ### Database
-- DbContext class: `FilmDiariesContext` **(proposed)**, file `Models/FilmDiariesContext.cs`.
-- Connection string name: `FilmDiariesContext` **(proposed)**.
+- DbContext class: `FilmDiariesContext` (agreed), file `Models/FilmDiariesContext.cs`.
+- Connection string name: `FilmDiariesContext` (agreed).
 - Seed data (genres, sample content, one admin, one test user) lives in the DbContext initializer.
 
 ### Roles and authorization
@@ -65,14 +65,18 @@ Rules:
 - Pages that need a login (My List, Watch History, Settings, Profile): `[Authorize]`.
 - Login checks the `User` table, then the `Admin` table, and stores the role on sign-in **(proposed)**.
 
-### Controllers and views **(proposed)**
+### Team roles and controllers
 
-| Area | Controllers | Owner |
+| Owner | Responsibility | Controllers / files |
 | :--- | :--- | :--- |
-| Login / Register | `AccountController` | Authentication |
-| Database and models | `Models/` folder, `FilmDiariesContext` | Database |
-| User pages | `HomeController`, `MoviesController`, `SeriesController`, `WatchListController`, `WatchHistoryController`, `ProfileController` | User pages |
-| Admin pages | `AdminDashboardController`, `AdminContentController`, `AdminGenreController`, `AdminUserController`, `AdminNotificationController` | Admin |
+| Azad Altuntop | Login, Register, authorization | `AccountController` |
+| Sena Yavuzer | Database and models | `Models/` folder, `FilmDiariesContext`, seed data |
+| İdil Kılıç | User pages | `HomeController`, `MoviesController`, `SeriesController`, `WatchListController`, `WatchHistoryController`, `ProfileController` **(proposed)** |
+| Sena Aydın | Admin pages | `AdminDashboardController`, `AdminContentController`, `AdminGenreController`, `AdminUserController`, `AdminNotificationController` |
+| Buket Pehlivanoğlu | Design and testing | `Layout.cshtml`, `AdminLayout.cshtml` (shared look), CSS files, test checklist |
+
+- Fixed names: `AccountController` (Login/Register) and the `Admin...` controllers. Other teams link to these.
+- User page controller names are the owner's choice. If one changes, update this table in the same commit.
 
 - Public layout: `Views/Shared/Layout.cshtml`. Admin layout: `Views/Shared/AdminLayout.cshtml`.
 - Page-specific CSS goes in `@section Styles`, page-specific JS in `@section Scripts`.
