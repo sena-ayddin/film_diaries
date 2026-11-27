@@ -71,9 +71,9 @@ Rules:
 | :--- | :--- | :--- |
 | Azad Altuntop | Login, Register, authorization | `AccountController` |
 | Sena Yavuzer | Database and models | `Models/` folder, `FilmDiariesContext`, seed data |
-| İdil Kılıç | User pages | `HomeController`, `MoviesController`, `SeriesController`, `WatchListController`, `WatchHistoryController`, `ProfileController` **(proposed)** |
-| Sena Aydın | Admin pages | `AdminDashboardController`, `AdminContentController`, `AdminGenreController`, `AdminUserController`, `AdminNotificationController` |
-| Buket Pehlivanoğlu | Design and testing | `Layout.cshtml`, `AdminLayout.cshtml` (shared look), CSS files, test checklist |
+| İdil Kılıç | User pages |`Layout.cshtml`, `HomeController`, `MoviesController`, `SeriesController`, `WatchListController`, `WatchHistoryController`, `ProfileController` **(proposed)** |
+| Sena Aydın | Admin pages | `AdminLayout.cshtml`, `AdminDashboardController`, `AdminContentController`, `AdminGenreController`, `AdminUserController`, `AdminNotificationController` |
+| Buket Pehlivanoğlu | Design and testing | (shared look), figma files, test checklist |
 
 - Fixed names: `AccountController` (Login/Register) and the `Admin...` controllers. Other teams link to these.
 - User page controller names are the owner's choice. If one changes, update this table in the same commit.
